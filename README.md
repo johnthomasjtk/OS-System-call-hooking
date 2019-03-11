@@ -5,6 +5,11 @@
     Hook openat system call using ftrace-hook
     Access the process control block (PCB)
     Find the address of the System wide File table entry corresponding to the received file decriptor 
+    
+    
+ System call hooking is to intercept a system call and modify the behaviour of the applications which
+call those system calls.There will be a real system call and a modified system call which the user
+enters.
 
 SHELL COMMANDS
 
